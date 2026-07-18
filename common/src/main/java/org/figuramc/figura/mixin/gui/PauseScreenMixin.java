@@ -71,7 +71,7 @@ public class PauseScreenMixin extends Screen {
             }
             default -> { // icon
                 x = lanButton == null ? this.width / 2 + 106 : lanButton.getX() + lanButton.getWidth() + 4;
-                y = lanButton == null ? this.height / 4 + 80 : lanButton.getY();
+                y = lanButton == null ? this.height / 4 + 80 + 24 : lanButton.getY() + lanButton.getHeight() + 4;
             }
         }
 
